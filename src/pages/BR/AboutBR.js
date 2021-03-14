@@ -39,7 +39,7 @@ function handleDivLenguages () {
                 <ul>
                     <li><img src={logo} alt="AirCnC"/></li>
                     <li onClick={()=> handleNavigatePages("/br/home")}>Home</li>
-                    <li onClick={()=> handleNavigatePages("/")}>Orçamento</li>
+                    <li onClick={()=> handleNavigatePages("/br/estimate")}>Orçamento</li>
                     <li onClick={()=> handleNavigatePages("/br/about")}>Sobre</li>
                     <li onClick={()=> handleNavigatePages("/")}>login</li>
                     <li onClick={() => handleDivLenguages() }> Linguagen</li>
@@ -110,7 +110,7 @@ function handleDivLenguages () {
                   <div className= "footer_navigation" >
                   <strong>Navegação</strong>
                         <li onClick={()=> handleNavigatePages("/br/home")}>Home</li>
-                        <li onClick={()=> handleNavigatePages("/")}>Orçamento</li>
+                        <li onClick={()=> handleNavigatePages("/br/estimate")}>Orçamento</li>
                         <li onClick={()=> handleNavigatePages("/br/about")}>Sobre Nós</li>
                         <li onClick={()=> handleNavigatePages("/")}>Login</li>
                   </div>

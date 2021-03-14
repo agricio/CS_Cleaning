@@ -317,8 +317,8 @@ async function handleRegister(e){
                 <div className= "footer_navigation" >
                             <strong>Navigation</strong>
                             <li onClick={()=> handleNavigatePages("/")}>Home</li>
-                            <li onClick={()=> handleNavigatePages("/")}>Free Estimate</li>
-                            <li onClick={()=> handleNavigatePages("/in/about")}>About US</li>
+                            <li onClick={()=> handleNavigatePages("/es/estimate")}>Free Estimate</li>
+                            <li onClick={()=> handleNavigatePages("/es/about")}>About US</li>
                             <li onClick={()=> handleNavigatePages("/")}>Login</li>
                     </div>
                 <div className= "footer_navigation_information" >

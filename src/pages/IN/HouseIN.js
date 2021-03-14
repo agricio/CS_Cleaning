@@ -38,7 +38,7 @@ function handleDivLenguages () {
                 <ul>
                     <li><img src={logo} alt="AirCnC"/></li>
                     <li onClick={()=> handleNavigatePages("/")}>Home</li>
-                    <li onClick={()=> handleNavigatePages("/office")}>Free Estimate</li>
+                    <li onClick={()=> handleNavigatePages("/in/estimate")}>Free Estimate</li>
                     <li onClick={()=> handleNavigatePages("/in/about")}>About</li>
                     <li onClick={()=> handleNavigatePages("/")}>login</li>
                     <li onClick={() => handleDivLenguages() }>Lenguage</li>

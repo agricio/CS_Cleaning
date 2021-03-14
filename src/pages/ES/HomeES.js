@@ -178,7 +178,7 @@ function handleDivLenguages () {
             <div className= "footer_navigation" >
                     <strong>Navegación</strong>
                     <li onClick={()=> handleNavigatePages("/es/home")}>Home</li>
-                    <li onClick={()=> handleNavigatePages("/")}>Presupuesto</li>
+                    <li onClick={()=> handleNavigatePages("/es/estimate")}>Presupuesto</li>
                     <li onClick={()=> handleNavigatePages("/es/about")}>Sobre nosotros</li>
                     <li onClick={()=> handleNavigatePages("/")}>login</li>
                   </div>
