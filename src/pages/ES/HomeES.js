@@ -79,7 +79,7 @@ function handleDivLenguages () {
             <div className= "servicesOptions">
                 <ul>
                         <li
-                           onClick={()=> handleNavigatePages("/")}
+                           onClick={()=> handleNavigatePages("/es/house")}
                             className=''>
                                 <img src={houseVector} alt="asd" />
                                 <span>Casas</span> 
