@@ -96,7 +96,7 @@ function handleDivLenguages () {
             </div>
             <div className= "box_3_">
 
-                <div className= "box_4_">
+                <div className= "box_14_">
                     <img src={beth} alt="asd" />
                     <div className= "texts">
                         <h3>Quarto, sala de estar e áreas comuns</h3>
@@ -117,7 +117,7 @@ function handleDivLenguages () {
                         <li>Tirar o lixo orgânico e reciclado </li>
                     </div>
                 </div>
-                <div className= "box_4_">
+                <div className= "box_14_">
                     <img src={kitch} alt="asd" />
                     <div className= "texts">
                         <h3>Limpeza de cozinha</h3>

@@ -71,13 +71,24 @@
 
 .redLine span:hover {
     color: #009933;
+
 }
 
 .none {
     display: none;
 }
+
+.division_0 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding-bottom: 40px;
+}
  
-.box_main {
+.session12X {
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
@@ -86,147 +97,142 @@
 	flex-direction: column;
 }
 
-.box_main h2 {
-    padding-top: 28px;
-    text-align: center;
+.session12X h2 {
+    margin-top: 20px;
+    align-self: center;
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 35px;
+    font-weight: 200;
+    padding-bottom: 20px;
 }
 
-.box_main img {
+.session12X l {
+    padding-top: 5px;
     align-self: center;
-    width: 550px;
-    padding-top: 20px;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 
-.box_main article {
-    padding: 60px;
+.session12X img {
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.session12X article {
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
-    text-align: center;
+    padding: 30px;
 }
 
-.box_2 {
-    background-color: #F0F0F5;
+.session13X {
+    height: 270px;
+    width: 100%;
+    background: url('../images/spray-bottle.jpg') no-repeat;
+    background-size: cover;
+}
+
+.box_4_ {
+    width: 500px;
+    height: 400px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    align-items: center;
+    justify-content: center;
     display: flex;
-	justify-content: center;
-	flex-direction: column;
+    flex-direction: column;
 }
 
-.intro {
-    padding: 20px;
-    text-align: right;
-}
 
-.intro h2 {
-    padding-bottom: 10px;
-    align-self: center;
-    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 28px;
+.User_data{
+    width: 100%;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.User_data h2 p{
     font-weight: 200;
 }
 
-.intro p {
-    text-align: center;
-    margin-top: 5px;
+
+.form_menu {
+    height: 100px;
+    background-color: #eceaea;
 }
 
-.butt {
+.form_menu_option {
+    height: 100px;
+    background-color: #c2c2c2;
+}
+
+.form_contanier_ {
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form_contanier_ p {
+    padding: 10px;
+}
+
+.form_contanier_ textarea {
+    padding: 10px;
+    width: 450px;
+    height: 150px;
+}
+
+.select button {
     background-color: #33cc33;
-    width: 160px;
-    height: 40px;
+    width: 120px;
+    height: 35px;
     border: none;
     border-radius: 4px;
-    margin-top: 20px;
+    margin-top: 7px;
     align-self: flex-end;
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
 }
 
-.butt:hover { 
+.select button:hover {
     background-color: #099c09;
 }
 
-.box_3 {
+.services_works {
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #414141;
+}
+
+
+.services_works_object {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
     margin: 30px;
-    padding: 60px;
-    display: grid;
-    justify-content: center;
-    border-radius: 10px;
 }
 
-.box_14_ {
-    height: 266px;
-    display: flex;
-	justify-content:flex-start;
-    flex-direction:row;
-    background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+.services_works_object p {
+    padding-bottom: 10px; 
+
 }
 
-.box_4_ img {
-    width: 400px;
-}
 
-.box_4_ h3 {
-    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    padding-bottom: 10px;
-}
-
-.box_4_ article {
-    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    padding-bottom: 10px;
-}
-
-.texts {
-    display: flex;
-	justify-content: center;
-    flex-direction:column;
-    padding: 20px;
-    margin-left: 30px;
-}
-
-.texts li {
-    margin-left: 10px;
-}
-
-.texts2 {
-    display: flex;
-	justify-content: center;
-    flex-direction:column;
-    text-align: right;
-    padding: 20px;
-}
-
-.box_5_ {
-    width: 100%;
-    height: 266px;
-    display: flex;
-	justify-content: flex-start;
-    flex-direction:row-reverse;
+.services_quality {
     background-color: #f9f9f9;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-}
-
-.box_5_ img {
-    width: 400px;
-}
-
-.box_5_ h3 {
-    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    padding-bottom: 10px;
-}
-
-.box_5_ article {
-    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .footer {
@@ -261,7 +267,6 @@
 
 .footer_navigation li:hover {
     color: #414141;
-
  }
 
 .footer_navigation_information {
@@ -282,8 +287,8 @@
 
 .footer_navigation_information a:hover {
     color: #414141;
-
 }
+
 
 @media (max-width: 1280px) {
     .container {
@@ -324,96 +329,71 @@
          align-self: center;
      }
 
-     .box_main {
-         align-items: center;
+     .session1 {
+         padding: 30px;
      }
 
-     .box_main h2{
-        font-size: 16px;
-    }
-
-     .box_main article {
-        font-size: 14px;
-        margin: 0px;
+     .session1 article {
+        font-size: 15px;
         padding: 20px;
     }
 
-     .box_main img {
-        align-self: center;
-        width: 320px;
-        padding-top: 20px;
-    }
-
-    .box_2 {
-        padding: 10px;
-    }
-
-    .intro h2 {
-        font-size: 18px;
-    }
-    .intro p {
+    .session2 {
+        width: 100%;
+        height: 100%;
+        background-color: #434343;
         display: flex;
-        font-size: 12px;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .box_3_ {
+    .form_boxxx {
+        width: 300px;
+        height: 900px;
         background-color: #FFFFFF;
-        padding: 10px;
+        z-index: 2;
+        position: absolute;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        align-items: center;
+        margin-top: 140px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services_ {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-end;
+    }
+
+    .services_works_grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services_quality_grid {
+        margin-top: 20px; 
+        background-color: #FFFFFF;
+        width: 100%;
         display: grid;
-        justify-content: center;
-        border-radius: 0px;
+        grid-template-columns: repeat(1, 3fr);
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; 
     }
 
-    .box_4_ {
-        height: 280px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction:column;
-        align-items: center;
-        margin-bottom: 20px;
-        background-color: #f0f0f5;
-    }
-    
-    .box_4_ img {
-        width: 200px;
-    }
-    
-    .box_4_ h3 {
-        font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    .services_ article {
         font-size: 12px;
-        padding-bottom: 5px;
-    }
-    
-    .box_4_ li {
-        font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 10px;
+        width: 85%;
+        color: #414141;
+        margin-top: 150px;
+        padding-top: 300px;
     }
 
-    .box_5_ {
-        height: 280px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction:column;
-        align-items: center;
-        margin-bottom: 20px;
-        background-color: #f0f0f5;
-    }
-    
-    .box_5_ img {
-        width: 200px;
-    }
-    
-    .box_5_ h3 {
-        font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 12px;
-        padding-bottom: 10px;
-    }
-    
-    .box_5_ li {
-        font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 10px;
+    .services_quality h3 {
+        margin: 15px;
+        text-align: center;
     }
 
     .footer {
@@ -445,5 +425,14 @@
         width: 1280px;
         box-shadow: 0px 0px 10px 10px #aaaaaa;
     }
+
+    .boxWhite {
+        padding-top: 30px;
+        width: 1280px;
+        height: 250px;
+        z-index: 1;
+        position: absolute;
+    }
+ 
       
   }

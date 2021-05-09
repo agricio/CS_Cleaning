@@ -88,7 +88,7 @@
     padding-bottom: 40px;
 }
  
-.session12 {
+.session12X {
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
@@ -97,7 +97,7 @@
 	flex-direction: column;
 }
 
-.session12 h2 {
+.session12X h2 {
     margin-top: 20px;
     align-self: center;
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
@@ -106,26 +106,26 @@
     padding-bottom: 20px;
 }
 
-.session12 l {
+.session12X l {
     padding-top: 5px;
     align-self: center;
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
 
-.session12 img {
+.session12X img {
     width: 250px;
     padding-top: 20px;
     padding-bottom: 50px;
 }
 
-.session12 article {
+.session12X article {
     font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     padding: 30px;
 }
 
-.session13 {
+.session13X {
     height: 270px;
     width: 100%;
     background: url('../images/spray-bottle.jpg') no-repeat;
@@ -138,7 +138,6 @@
     flex-direction: column;
     align-items:center;
     justify-content: flex-end;
-    padding-top: 200px;
 }
 
 .services_ article {
@@ -148,9 +147,9 @@
     margin-top: 150px;
 }
 
-.form_box {
+.form_boxx {
     width: 500px;
-    height: 770px;
+    height: 400px;
     background-color: #FFFFFF;
     z-index: 2;
     position: absolute;
@@ -161,6 +160,18 @@
     display: flex;
     flex-direction: column;
 }
+
+#info {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.form_boxx h2 p{
+    font-weight: 200;
+}
+
 
 .form_menu {
     height: 100px;
@@ -179,9 +190,16 @@
 }
 
 .imput input{
-    padding: 6px 10px;
+    padding: 9px 10px;
     margin: 5px 0;
+    width: 250px;
     box-sizing: border-box;
+}
+
+#infoPassword {
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
 }
 
 .select {
@@ -202,8 +220,8 @@
 
 .select button {
     background-color: #33cc33;
-    width: 160px;
-    height: 40px;
+    width: 120px;
+    height: 35px;
     border: none;
     border-radius: 4px;
     margin-top: 7px;
@@ -211,6 +229,14 @@
     color: #ffffff;
     font-weight: bold;
     cursor: pointer;
+}
+
+.select p {
+    cursor: pointer;
+}
+
+.select p:hover {
+    color: #099c09;
 }
 
 .select button:hover {
@@ -266,37 +292,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
-.services_quality p { 
-    width: 80%;
-    padding-top: 5px;
-    padding-bottom: 20px;
-}
-
-.services_quality_grid {
-    margin-top: 20px; 
-    background-color: #FFFFFF;
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    
-}
-
-.services_quality_object {
-    padding: 20px;
-}
-
-.services_quality_object p{
-    margin-left: 40px;
- }
-
-.services_quality_top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 
 .footer {
     height: 150px;
@@ -407,6 +402,20 @@
         background-color: #434343;
         display: flex;
         align-items: center;
+        flex-direction: column;
+    }
+
+    .form_boxx {
+        width: 300px;
+        height: 400px;
+        background-color: #FFFFFF;
+        z-index: 2;
+        position: absolute;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        align-items: center;
+        margin-top: 140px;
+        justify-content: center;
+        display: flex;
         flex-direction: column;
     }
 

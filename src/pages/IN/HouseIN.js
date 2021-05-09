@@ -47,11 +47,11 @@ function handleDivLenguages () {
         </div>
        <div className="blueLine"/>
         <div className= {div}>
-        <li onClick={()=> handleNavigatePages("/br/apart")}>
+        <li onClick={()=> handleNavigatePages("/br/house")}>
                     <img src={port} alt="usa" />
                     <span>Portuguese</span> 
                 </li>
-                <li onClick={()=> handleNavigatePages("/es/apart")}>
+                <li onClick={()=> handleNavigatePages("/es/house")}>
                     <img src={span} alt="asd" />
                     <span>Spanish</span> 
                 </li>
@@ -94,7 +94,7 @@ function handleDivLenguages () {
             </div>
             <div className= "box_3_">
 
-                <div className= "box_4_">
+                <div className= "box_14_">
                     <img src={beth} alt="asd" />
                     <div className= "texts">
                         <h3>Bedroom, Living Room & Common Areas</h3>
@@ -115,7 +115,7 @@ function handleDivLenguages () {
                         <li>Take out garbage and recycling</li>
                     </div>
                 </div>
-                <div className= "box_4_">
+                <div className= "box_14_">
                     <img src={kitch} alt="asd" />
                     <div className= "texts">
                         <h3>Kitchen Cleaning</h3>

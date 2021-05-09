@@ -1,7 +1,9 @@
-import React, { useState }  from 'react';
+import React, { useState, useEffect }  from 'react';
 import { useHistory } from 'react-router-dom';
 
 import '../../assets/css/HomeBR.css';
+
+import api from '../../services/api';
 
 import logo from '../../assets/images/logo_half.png';
 import backWithe from '../../assets/images/back_withe.png';
@@ -16,7 +18,16 @@ import span from '../../assets/images/spain.png'
 
 function HomeBR() {
     const [ div, setDiv ] = useState(['none']);
+    const [coments, setComents ] = useState([]);
     const history = useHistory();
+
+useEffect(() => {
+    async function loadComents() {
+        const res = await api.get('/comment');
+        setComents(res.data);
+    }
+    loadComents();
+}, []);
 
 function handleNavigatePages(opc) {
     history.push(opc);
@@ -129,46 +140,14 @@ function handleDivLenguages () {
          <div className= "customers">
             <h1>Clientes Felizes</h1>
             <div className= "customers-options">
-                <ul>
-                        <li
+                    <ul> { coments.map(coment => (
+                        <li key={coment._id}
                             className='customer_inside'>
-                                <img src={houseVector} alt="asd" />
-                                <span>Casas</span>
-                                <article>
-                                        “Os faxineiros saem da minha casa em um
-                                        forma notável, semana após semana.
-                                        Life Maid Easy é excelente e confiável.
-                                        Nós os recomendamos para amigos e
-                                        toda vez que eles estão satisfeitos. Não vamos
-                                        trabalhe com qualquer outra pessoa! ”
-                                </article> 
-                         </li>
-                         <li
-                            className='customer_inside'>
-                                <img src={buildVector} alt="asd" />
-                                <span>Apartamentos</span>
-                                <article>
-                                    “Os faxineiros saem da minha casa em um
-                                    forma notável, semana após semana.
-                                    Life Maid Easy é excelente e confiável.
-                                    Nós os recomendamos para amigos e
-                                    toda vez que eles estão satisfeitos. Não vamos
-                                    trabalhe com qualquer outra pessoa! ”
-                                </article>  
-                         </li>
-                         <li
-                            className='customer_inside'>
-                                <img src={officeVector} alt="asd" />
-                                <span>Escritórios</span>
-                                <article>“Os faxineiros saem da minha casa em um
-                                        forma notável, semana após semana.
-                                        Life Maid Easy é excelente e confiável.
-                                        Nós os recomendamos para amigos e
-                                        toda vez que eles estão satisfeitos. Não vamos
-                                        trabalhe com qualquer outra pessoa! ”
-                                </article>  
-                         </li>
-                </ul>
+                                <span>{coment.firstName}</span>
+                                <article>{coment.comment}</article> 
+                        </li>
+                        ))}      
+                    </ul>
                 </div>
             </div>
             <div className= "footer" >

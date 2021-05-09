@@ -35,7 +35,7 @@ function handleDivLenguages () {
                     <li onClick={()=> handleNavigatePages("/es/home")}>Home</li>
                     <li onClick={()=> handleNavigatePages("/es/estimate")}>Presupuesto</li>
                     <li onClick={()=> handleNavigatePages("/es/about")}>Sobre nosotros</li>
-                    <li onClick={()=> handleNavigatePages("/")}>login</li>
+                    <li onClick={()=> handleNavigatePages("/es/login")}>login</li>
                     <li onClick={() => handleDivLenguages() }>Idioma</li>
                 </ul>
             <div className="language"></div>
@@ -43,11 +43,11 @@ function handleDivLenguages () {
        <div className="blueLine"/>
         <div className= {div}>
              <ul>
-             <li onClick={()=> handleNavigatePages("/in/apart")}>
+             <li onClick={()=> handleNavigatePages("/in/office")}>
                     <img src={usa} alt="usa" />
                     <span>Inglés</span> 
                 </li>
-                <li onClick={()=> handleNavigatePages("/br/apart")}>
+                <li onClick={()=> handleNavigatePages("/br/office")}>
                     <img src={por} alt="asd" />
                     <span>Portugués</span> 
                 </li>
@@ -114,7 +114,7 @@ function handleDivLenguages () {
                         <li onClick={()=> handleNavigatePages("/es/home")}>Home</li>
                         <li onClick={()=> handleNavigatePages("/es/estimate")}>Presupuesto</li>
                         <li onClick={()=> handleNavigatePages("/es/about")}>Sobre nosotros</li>
-                        <li onClick={()=> handleNavigatePages("/")}>Login</li>
+                        <li onClick={()=> handleNavigatePages("/es/login")}>Login</li>
                   </div>
             <div className= "footer_navigation_information" >
                 <strong>Informações de contato:</strong>
